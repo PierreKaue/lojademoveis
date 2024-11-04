@@ -1,0 +1,111 @@
+@media (max-width:768px) {
+    
+    .sec1titulo1{
+        margin-bottom: 195px;
+    }
+
+    .sec1 h1, .sec2 h1, .sec3 h1, .sec4 h1, .sec5 h1{
+        font-size: 32.5px;
+    }
+
+    .sec1 button, .sec2 button{
+        font-size: 20px;
+    }
+
+    .sec1 button{
+        width: 150px;
+    }
+
+    .sec1 p{
+        font-size: 21px;
+    }
+
+    .sec2 h2, .sec3 h2, .sec4 h2, .sec5 h2{
+        font-size: 26px;
+    }
+
+    .sec2 p, .sec3 p, .sec4 p, .sec5 p{
+        font-size: 25px;
+    }
+
+    .cards{
+        flex-direction: column;
+    }
+
+    .cards img{
+        width: 700px;
+    }
+
+    .card {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .sec3 img{
+        width: 300px;
+        border-radius: 50%;
+    }
+
+    .sec3 p{
+        width: 640px;
+
+    }
+
+    .negrito{
+        position: relative;
+        top: 2px;
+    }
+
+    .sec4 h2{
+        width: 520px;
+    }
+
+    .sec4 p{
+        width: 700px;
+        line-height: 30px;
+    }
+
+    .sec5 h1{
+        margin-left: 100px;
+        width: 280px;
+    }  
+
+    .fomulario{
+        width: 50vh;
+    }
+
+    form{
+        width: 120%;
+    }
+
+    input{
+        font-size: 15px;
+        margin: 0%;
+        position: relative;
+        left: -25px;
+    }
+
+    textarea{
+        font-size: 15px;
+        position: relative;
+        left: -25px;
+    }
+
+    .botaoenviar{
+        font-size: 15px;
+    }
+
+    .imgform2 img{
+        width: 80%;
+        margin-left: 100px;
+        margin-bottom: 85px;
+        position: relative;
+        left: -30px;
+    }
+
+    footer{
+        width: 76vh;
+        font-size: 15px;
+    }
+}
