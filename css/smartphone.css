@@ -1,0 +1,156 @@
+@media (max-width:480px) {
+    
+    .sec2 h1, .sec3 h1, .sec4 h1, .sec5 h1, .sec6 h1{
+        font-size: 30px;
+    }
+
+    .sec2 h2, .sec3 h2, .sec4 h2, .sec5 h2, .sec6 h2{
+        font-size: 25px;
+    }
+
+    .sec2 p, .sec3 p, .sec4 p, .sec5 p, .sec6 p{
+        font-size: 20px;
+    }
+
+    .sec2 button, .sec3 button, .sec4 button, .sec5 button, .sec6 button{
+        font-size: 22px;
+    }
+
+    p{
+        line-height: 26px;
+    }
+
+    .card img {
+        width: 100%;
+    }
+
+    header{
+        position: relative;
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    header nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    nav a{
+        background-color: #333;
+        color: #fff;
+        width: 100%;
+        text-align: center;
+        margin: 0%;
+        padding: 10px;
+        font-size: 15px;
+        border-bottom: 2px solid black;
+
+    }
+
+    .sec1{
+        background-position: center;
+        background-size: cover;
+    }
+
+    .sec1titulo1{
+        margin-bottom: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec1titulo1 button{
+        margin: 0px;
+        margin-top: 12px;
+        font-size: 15px;
+    }
+
+    .sec1 h1{
+        font-size: 20px;
+    }
+    .sec1 p{
+        font-size: 17px;
+    }
+
+    .sec1titulo1 p{
+        margin-bottom: 25px;
+    }
+
+    .sec2 .card img{
+        width: 100%;
+    }
+
+    .sec3 img{
+        width: 180px;
+    }
+
+    .sec3 p{
+        width: 410px;
+    }
+
+    .sec4 p{
+        width: 410px;
+    }
+
+    .sec4 h2{
+      width: 410px;
+    }
+
+    .sec5 h2{
+        width: 400px;
+    }
+
+    .sec5 p{
+        width: 380px;
+    }
+
+    .sec6 img{
+        display: none;
+    }
+
+    .sec6 .formulario form{
+        width: 100%;
+    }
+
+    .sec6 .formulario form input{
+        margin: 0px 0px 20px 0px;
+        padding: 0px;
+        width: 390px;
+        margin-left: 50px;
+    }
+    
+    .sec6 .formulario form textarea{
+        margin: 0px 0px 20px 0px;
+        padding: 0px;
+        width: 390px;
+        margin-left: 50px;
+    }
+
+    .sec6 .formulario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .sec6 h1{
+        margin: 0%;
+        padding: 0%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    footer{
+        width: 100%;
+    }
+
+    footer p{
+        line-height: 35px;
+    }
+
+
+}

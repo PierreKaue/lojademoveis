@@ -4,28 +4,53 @@
         margin-bottom: 195px;
     }
 
-    .sec1 h1, .sec2 h1, .sec3 h1, .sec4 h1, .sec5 h1{
-        font-size: 32.5px;
+    a{
+        font-size: 21px;
     }
 
-    .sec1 button, .sec2 button{
-        font-size: 20px;
+    p{
+        line-height: 36px;
+    }
+
+    .card{
+        margin: 30px 0px 0px 0px;
+        width:100%;
+    }
+
+    header img{
+        width: 80px;
+        border-radius: 50px;
+    }
+
+    .sec1 h1, .sec2 h1, .sec3 h1, .sec4 h1, .sec5 h1, .sec6 h1{
+        font-size: 32.5px;
     }
 
     .sec1 button{
         width: 150px;
+        font-size: 17px;
+
     }
 
     .sec1 p{
         font-size: 21px;
     }
 
-    .sec2 h2, .sec3 h2, .sec4 h2, .sec5 h2{
+    .sec2 button, .sec4 button{
+        font-size: 25px;
+        height: 50px;
+    }
+
+    .sec2 h2, .sec3 h2, .sec4 h2, .sec5 h2, .sec6 h2{
         font-size: 26px;
     }
 
-    .sec2 p, .sec3 p, .sec4 p, .sec5 p{
+    .sec2 p, .sec3 p, .sec4 p, .sec5 p, .sec6 p{
         font-size: 25px;
+    }
+
+    .sec2 .card img{
+        width: 700px;
     }
 
     .cards{
@@ -43,7 +68,7 @@
     }
 
     .sec3 img{
-        width: 300px;
+        width: 400px;
         border-radius: 50%;
     }
 
@@ -57,16 +82,25 @@
         top: 2px;
     }
 
+    .sec4 p{
+        width: 600px;
+    }
+
     .sec4 h2{
+        width: 500px;
+    }
+
+    .sec5 h2{
         width: 520px;
     }
 
-    .sec4 p{
+    .sec5 p{
         width: 700px;
         line-height: 30px;
     }
 
-    .sec5 h1{
+    .sec6 h1{
+        margin-bottom: 10px;
         margin-left: 100px;
         width: 280px;
     }  
@@ -108,4 +142,10 @@
         width: 76vh;
         font-size: 15px;
     }
+
+    footer p{
+        margin-bottom: -10px;
+    }
+
+
 }
